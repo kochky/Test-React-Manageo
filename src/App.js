@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import PeopleList from './components/PeopleList';
+import Header from './components/Header';
+import Hero from './components/Hero'
+import Footer from './components/Footer';
+import { createTheme,ThemeProvider  } from '@mui/material/styles';
+
+
+const theme = createTheme({
+  palette: {
+    primary:{
+      main:"#00A0B0",
+    },
+    secondary:{
+      main:"#CF5C78",
+    },
+    gray:{
+      main:"#939597"
+    },
+    yellow:{
+      main:"#F5DF4D"
+    }
+  },
+});
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <>
+        <Header />
+        <Hero />
+        <PeopleList />
+        <Footer />
+      </>
+    </ThemeProvider>
+
   );
 }
 

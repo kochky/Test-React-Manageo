@@ -1,0 +1,64 @@
+{
+    "data": [    
+        {
+            "id": 1,
+            "firstName": "Pierre",
+            "lastName": "Martin",
+            "mail": "pierre.martin@manageo.fr"
+        },
+        {
+            "id": 2,
+            "firstName": "Martine",
+            "lastName": "Cohen",
+            "mail": "chaton93@manageo.fr"
+        },
+        {
+            "id": 3,
+            "firstName": "Karime",
+            "lastName": "Benzema",
+            "mail": "footreal@manageo.fr"
+        },
+        {
+            "id": 4,
+            "firstName": "Elon",
+            "lastName": "Musk",
+            "mail": "twitterismine@manageo.fr"
+        },
+        {
+            "id": 5,
+            "firstName": "Will",
+            "lastName": "Smith",
+            "mail": "prince.belair@manageo.fr"
+        },
+        {
+            "id": 6,
+            "firstName": "Gérard",
+            "lastName": "Majax",
+            "mail": "magie1980@manageo.fr"
+        },
+        {
+            "id": 7,
+            "firstName": "Steven",
+            "lastName": "Strange",
+            "mail": "doctor.strange@manageo.fr"
+        },
+        {
+            "id": 8,
+            "firstName": "Wanda",
+            "lastName": "Maximoff",
+            "mail": "i.miss.vision@manageo.fr"
+        },
+        {
+            "id": 9,
+            "firstName": "Marc",
+            "lastName": "Spector",
+            "mail": "moonknight@manageo.fr"
+        },
+        {
+            "id": 10,
+            "firstName": "Luke",
+            "lastName": "Skywalker",
+            "mail": "jedi.knight@manageo.fr"
+        }
+    ]
+}

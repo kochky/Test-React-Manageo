@@ -1,0 +1,18 @@
+body {
+  margin:auto;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;   
+  min-width:320px;
+}
+
+.body-padding {
+  max-width:2048px;
+  margin:auto;
+}
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
